@@ -1,0 +1,121 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #161f28;
+    height: 50px;
+    color: white;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.menu ul {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.menu ul li{
+    font-size: 18px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.contact{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 11px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.menu ul li:hover{
+    color: #4a5157;
+    animation: 0.3s ease-in-out;
+    transition: color 0.4s ease;
+}
+
+.contact:hover{
+    color: #4a5157;
+    animation: 0.3s ease-in-out;
+    transition: color 0.4s ease;
+}
+
+.logo:hover{
+    color: #4a5157;
+    animation: 0.3s ease-in-out;
+    transition: color 0.4s ease;
+}
+
+/* Gaya CSS untuk navbar dalam mode "fixed-navbar" */
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #161f28;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    transition: all 0.3s ease;
+  }
+  
+  .fixed-navbar .menu ul li {
+    /* Gaya untuk item menu saat dalam mode fixed-navbar */
+    font-size: 18px;
+    margin-top: 14px;
+    /* Atur sesuai kebutuhan Anda */
+  }
+  
+  .fixed-navbar .logo {
+    /* Gaya untuk logo saat dalam mode fixed-navbar */
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 2px;
+    /* Atur sesuai kebutuhan Anda */
+  }
+  
+  .fixed-navbar .contact {
+    /* Gaya untuk kontak saat dalam mode fixed-navbar */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 11px;
+    margin-top: 6px;
+    /* Atur sesuai kebutuhan Anda */
+  }
+  
+  /* Tampilan Mobile Menu */
+
+  
+  @media (max-width: 768px) {
+    .menu ul {
+        display: none; /* Menyembunyikan menu pada versi mobile */
+      }
+    
+      .fixed-navbar .menu ul {
+        display: none; /* Menyembunyikan menu pada versi mobile dalam mode fixed-navbar */
+      }
+    
+      .contact {
+        display: none; /* Menyembunyikan elemen Contact pada versi mobile */
+      }
+
+      .logo{
+        align-items: center;
+        margin-left: 85px;
+      }
+    
+  }
+  
+  

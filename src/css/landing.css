@@ -1,0 +1,137 @@
+.fullLanding{
+    background-image: url("./public/wpp.jpg");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fullinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.profile img{
+    border-radius: 100px;
+}
+
+.profile{
+    margin-left: 95px;
+    margin-bottom: 30px;
+}
+
+.description{
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.description h1{
+    font-size: 35px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.description p{
+    font-size: 18px;
+}
+
+.tombol{
+    background-color: #161f28;
+    margin-top: 25px;
+    z-index: 1;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.tombol:hover{
+    background-color: #1c252e;
+}
+
+.tombol a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+.background-video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0; 
+    backdrop-filter: blur(10px);
+    opacity: 0.3;
+  }
+  
+  .background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* social media */
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: translateY(-5px); /* Mendorong ikon ke atas saat hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan saat hover */
+  }
+  
+  .social-icons i {
+    font-size: 24px; /* Ukuran ikon */
+    color: #333; /* Warna ikon */
+  }
+  
+  .social-icons span {
+    margin-top: 5px; /* Jarak antara ikon dan teks */
+    font-size: 14px; /* Ukuran teks */
+    color: #333; /* Warna teks */
+  }
+
+  @media (max-width: 768px) {
+    .description p{
+        font-size: 15px;
+    }
+
+    .description h1{
+        font-size: 30px;
+    }
+
+    .profile img{
+        width: 170px;
+        margin-right: 110px;
+    }
+
+    .tombol{
+        width: 200px;
+        margin-left: 90px;
+    }
+
+  }

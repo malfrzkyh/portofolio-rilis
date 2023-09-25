@@ -1,0 +1,29 @@
+.fullFooter{
+    background: #1D2F36;
+    background: linear-gradient(135deg, #152329, #1B2530);
+    height: 50px;
+    color: rgb(170, 169, 169);
+    box-shadow: 0px 50px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footerContent{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.footerContent p{
+    padding-top: 5px;
+}

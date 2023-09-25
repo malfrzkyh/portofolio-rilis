@@ -1,0 +1,219 @@
+.fullProficiency{
+    background-color: #151e26;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.proficiencyTitle{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.proficiencyTitle h1{
+    text-align: center;
+}
+
+
+.sectionProficiency{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 13px;
+}
+
+.proftitle{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.skillContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skillinfo{
+    font-size: 9px;
+    text-align: center;
+    width: 120px; /* Lebar yang sama untuk setiap skillinfo */
+    height: 35px; /* Tinggi yang sama untuk setiap skillinfo */
+    border-radius: 50px;
+    margin-top: 6px;
+    padding-top: 6px;
+}
+
+/* skill color  */
+
+.adv{
+    margin-top: 6px;
+    padding-top: 6px;
+    border-radius: 50px;
+    width: 120px;
+    height: 35px;
+    background-color: #59266c;
+}
+
+
+.bgnr{
+    margin-top: 6px;
+    padding-top: 6px;
+    border-radius: 50px;
+    width: 120px;
+    height: 35px;
+    background-color: #1a6523;
+}
+
+.imdt{
+    margin-top: 6px;
+    padding-top: 6px;
+    border-radius: 50px;
+    width: 140px;
+    height: 35px;
+    background-color: #185271;
+}
+
+/* skill color  */
+
+
+/* bagian mid left right */
+
+.leftProf{
+    border-radius: 20px;
+    width: 550px;
+    height: 600px;
+    background: #1D2F36;
+    background: linear-gradient(135deg, #1D2F36, #1B2530);
+}
+
+.midProf{
+    border-radius: 20px;
+    width: 550px;
+    background: #1D2F36;
+    background: linear-gradient(135deg, #1D2F36, #1B2530);
+}
+
+.rightProf{
+    border-radius: 20px;
+    width: 550px;
+    background: #1D2F36;
+    background: linear-gradient(135deg, #1D2F36, #1B2530);
+}
+
+/* bagian mid left right */
+
+
+
+.skillimage{
+    display: flex;
+}
+
+.skillimage img{
+    margin-right: 2px;
+}
+
+.skillimage p{
+    padding-top: 14px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+/* adjustable buat rapi wkwk */
+
+/* software */
+.forprpro{
+    margin-left: 4px;
+}
+
+.forcorel{
+    margin-right: 3px;
+}
+
+.forpshop{
+    margin-right: 3px;
+}
+
+.forvscode{
+    margin-right: 10px;
+}
+
+.forwinbox{
+    margin-right: 30px;
+}
+
+/* language */
+
+
+
+/* technology */
+
+.forjs{
+    margin-left: 17px;
+}
+
+.forc{
+    margin-left: 3px;
+}
+
+.forreact{
+    margin-right: 5px;
+}
+
+.fornode{
+    margin-left: 5px;
+}
+
+
+/* adjustable buat rapi wkwk */
+
+/* CSS Responsif untuk Tampilan Mobile */
+@media (max-width: 768px) {
+    .sectionProficiency {
+      flex-direction: column; /* Ubah tata letak ke kolom untuk tampilan mobile */
+    }
+    
+    .leftProf, .midProf, .rightProf {
+      width: 100%; /* Lebar penuh untuk tampilan mobile */
+      margin-top: 20px; /* Atur margin atas untuk jarak antar bagian */
+    }
+
+    .leftProf{
+        margin-left: 19px;
+        height: 200px;
+        width: 350px;
+    }
+
+    .midProf{
+        margin-left: 19px;
+        width: 350px;
+        height: 450px;
+    }
+
+    .rightProf{
+        height: 450px;
+        margin-left: 19px;
+        width: 350px;
+    }
+
+
+
+
+    
+
+    .proftitle {
+      text-align: center;
+      padding-top: 10px; /* Sesuaikan padding untuk tampilan mobile */
+    }
+    .skillContainer {
+    /* Ubah tata letak ke kolom untuk tampilan mobile */
+      align-items: center;
+      margin-top: 10px; /* Sesuaikan margin atas untuk jarak antara elemen */
+    }
+    /* .skillinfo {
+       
+    } */
+    /* Sesuaikan gaya elemen lainnya sesuai kebutuhan pada tampilan mobile */
+  }

@@ -1,0 +1,54 @@
+.fullPortofolio {
+    background-color: #151e26; /* Ganti warna latar belakang sesuai kebutuhan */
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 kolom ke samping */
+    grid-gap: 30px; /* Jarak antara item */
+    max-width: 1500px; /* Atur lebar maksimum grid */
+    margin: 0 auto; /* Pusatkan grid */
+  }
+  
+  .portfolio-item {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333; /* Warna teks item */
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Efek hover */
+  }
+  
+  .portfolio-item:hover img {
+    transform: scale(1.1); /* Perbesar gambar saat dihover */
+  }
+
+  .portofolioTitle{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 kolom ke samping untuk tampilan mobile */
+      grid-gap: 20px; /* Sesuaikan jarak antara item untuk tampilan mobile */
+    }
+  
+    .portofolioTitle {
+      font-size: 14px; /* Sesuaikan ukuran font untuk tampilan mobile */
+      margin-top: 40px; /* Sesuaikan margin atas untuk tampilan mobile */
+      margin-bottom: 50px; /* Sesuaikan margin bawah untuk tampilan mobile */
+    }
+  }
+  
